@@ -15,14 +15,14 @@ Desenvolver habilidades fundamentais em segurança cibernética, incluindo:
 
 ## 🧱 Estrutura do Repositório
 CCST-Cybersecurity-Junior-Analyst/ 
-├── 01-introducao-cybersecurity/ │ └── README.md 
-├── 02-redes-basicas/ │ └── README.md 
-├── 03-dispositivos-e-configuracao/ │ └── README.md 
-├── 04-seguranca-endpoint/ │ └── README.md 
-├── 05-defesa-de-rede/ │ └── README.md 
-├── 06-gerenciamento-de-ameacas/ │ └── README.md 
-├── 07-exame-final/ │ └── README.md 
-└── README.md
+- ├── 01-introducao-cybersecurity/ │ └── README.md 
+- ├── 02-redes-basicas/ │ └── README.md 
+- ├── 03-dispositivos-e-configuracao/ │ └── README.md 
+- ├── 04-seguranca-endpoint/ │ └── README.md 
+- ├── 05-defesa-de-rede/ │ └── README.md 
+- ├── 06-gerenciamento-de-ameacas/ │ └── README.md 
+- ├── 07-exame-final/ │ └── README.md 
+- └── README.md
 
 ## 📚 Conteúdo por Módulo
 
