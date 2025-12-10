@@ -1,0 +1,17 @@
+Comando:
+nmap -sV 192.168.56.1
+
+Saída:
+Starting Nmap 7.93 ( https://nmap.org ) at 2025-12-10 09:45 -03
+Nmap scan report for 192.168.56.1
+Host is up (0.0010s latency).
+PORT    STATE SERVICE VERSION
+22/tcp  open  ssh     OpenSSH 8.9p1 Ubuntu 3 (Ubuntu Linux; protocol 2.0)
+80/tcp  open  http    Apache httpd 2.4.54 ((Ubuntu))
+443/tcp open  https   Apache httpd 2.4.54 ((Ubuntu))
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 3.45 seconds
+
+Observação:
+Além das portas abertas, foi possível identificar versões dos serviços (OpenSSH e Apache).
