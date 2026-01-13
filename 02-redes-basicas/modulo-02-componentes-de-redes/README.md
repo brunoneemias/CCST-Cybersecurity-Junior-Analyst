@@ -1,33 +1,69 @@
-# Módulo 02 – Componentes, Tipos e Conexões de Rede
+# 🧩 Componentes, Tipos e Conexões de Rede
 
-Este módulo aborda os principais elementos que compõem uma rede de computadores, fundamentais para análise de tráfego, identificação de falhas e resposta a incidentes de segurança.
+Este módulo aborda os principais elementos que compõem uma rede de computadores e como eles se conectam à Internet, com foco nos fundamentos necessários para a análise de segurança.
 
-## Clientes e Servidores
-- Diferença entre modelo cliente-servidor e peer-to-peer
-- Papel dos servidores em redes corporativas
-- Importância para serviços como DNS, HTTP, FTP e autenticação
+---
 
-## Componentes de Rede
-- Roteadores
-- Switches
-- Firewalls
-- Modems
-- Pontos de acesso (Access Points)
+## 🖥️ Clientes e Servidores
 
-## Conectividade com o ISP
-- Tipos de conexão: fibra, cabo, DSL e rádio
-- Papel do ISP no acesso à Internet
-- Endereço IP público e privado
+- **Cliente:** Dispositivo que solicita serviços (ex: navegador web).
+- **Servidor:** Dispositivo que fornece serviços (ex: web, DNS, e-mail).
+
+📌 *Modelo Cliente-Servidor* é amplamente utilizado em ambientes corporativos e monitorado por equipes SOC.
+
+---
+
+## 🔌 Componentes de Rede
+
+### 📡 Roteador
+Responsável por encaminhar pacotes entre redes diferentes.
+
+### 🔀 Switch
+Conecta dispositivos dentro da mesma rede local.
+
+### 🧱 Firewall
+Controla o tráfego de rede com base em regras de segurança.
+
+### 📶 Access Point
+Permite a conexão de dispositivos sem fio à rede.
+
+🔐 *Relevância:*  
+Cada componente pode ser um ponto de falha ou de ataque se mal configurado.
+
+---
+
+## 🌍 Conectividade com o ISP
+
+O **ISP (Internet Service Provider)** fornece acesso à Internet.
+
+### Tipos de Conexão:
+- Fibra óptica
+- Cabo
+- DSL
+- Rádio
+
+### Conceitos Importantes:
+- IP público e privado
 - NAT (Network Address Translation)
 
-## Redes Wireless
-- Conceitos básicos de Wi-Fi
-- Diferença entre redes abertas e protegidas
-- Importância da criptografia (WPA2/WPA3)
-- Riscos comuns em redes sem fio
+🔐 *O NAT ajuda a ocultar a estrutura interna da rede.*
 
-## Objetivo do Módulo
-Entender a estrutura física e lógica das redes, permitindo identificar pontos vulneráveis e compreender o funcionamento do tráfego de dados.
+---
 
-## Status
-✅ Concluído
+## 📶 Redes Wireless
+
+Redes sem fio utilizam ondas de rádio para transmissão de dados.
+
+### Principais pontos:
+- Uso de criptografia (WPA2 / WPA3)
+- Riscos de redes abertas
+- Possibilidade de ataques como sniffing e rogue AP
+
+⚠️ Redes Wi-Fi são alvos frequentes devido à facilidade de acesso físico.
+
+---
+
+## 🎯 Objetivo do Módulo
+Entender os elementos que formam uma rede e como sua estrutura influencia diretamente a segurança e o monitoramento do tráfego.
+
+✅ **Status:** Concluído
