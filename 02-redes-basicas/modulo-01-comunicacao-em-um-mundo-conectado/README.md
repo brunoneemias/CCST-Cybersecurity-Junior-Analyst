@@ -1,29 +1,65 @@
-# Módulo 01 – Comunicação em um Mundo Conectado
+# 🌐 Comunicação em um Mundo Conectado
 
-Este módulo apresenta os fundamentos de como os dispositivos se comunicam em redes, conceito essencial para a compreensão de ataques, falhas e mecanismos de defesa em cibersegurança.
+Este módulo apresenta os fundamentos da comunicação em redes de computadores, explicando como os dados são transmitidos entre dispositivos e qual a importância desses conceitos para a cibersegurança.
 
-## Tipos de Rede
-- LAN (Local Area Network)
-- WAN (Wide Area Network)
-- MAN e PAN
-- Internet e Intranet
+---
 
-## Transmissão de Dados
-- Comunicação entre dispositivos por meio de sinais elétricos, ópticos ou ondas de rádio
-- Importância da transmissão confiável para a segurança da informação
+## 🖧 Tipos de Rede
 
-## Métodos Comuns de Transmissão
-- Transmissão cabeada (Ethernet, fibra óptica)
-- Transmissão sem fio (Wi-Fi, rádio)
-- Comunicação simplex, half-duplex e full-duplex
+As redes podem ser classificadas de acordo com seu alcance e finalidade:
 
-## Largura de Banda e Taxa de Transferência
-- Diferença entre largura de banda e velocidade real
-- Impacto da largura de banda na disponibilidade (pilar da CIA)
-- Relação com ataques de negação de serviço (DoS/DDoS)
+- **LAN (Local Area Network)**  
+  Rede local, comum em residências, empresas e escolas.
 
-## Objetivo do Módulo
-Compreender como os dados trafegam em redes e como limitações ou falhas podem impactar a segurança, desempenho e disponibilidade dos sistemas.
+- **WAN (Wide Area Network)**  
+  Conecta redes em grandes distâncias, como a Internet.
 
-## Status
-✅ Concluído
+- **MAN (Metropolitan Area Network)**  
+  Abrange áreas urbanas, como redes de cidades.
+
+- **PAN (Personal Area Network)**  
+  Rede de curto alcance, como Bluetooth.
+
+🔐 *Relevância para a segurança:*  
+Cada tipo de rede possui riscos diferentes, exigindo controles e proteções adequadas.
+
+---
+
+## 📡 Transmissão de Dados
+
+A transmissão de dados é o processo pelo qual informações são enviadas de um dispositivo para outro por meio de sinais:
+
+- Elétricos (cabos metálicos)
+- Ópticos (fibra óptica)
+- Ondas de rádio (Wi-Fi)
+
+🔐 *Na cibersegurança*, compreender a transmissão ajuda a identificar interceptações, falhas e ataques à comunicação.
+
+---
+
+## 🔁 Métodos Comuns de Transmissão de Dados
+
+- **Simplex:** Comunicação em apenas um sentido.
+- **Half-Duplex:** Comunicação nos dois sentidos, mas não simultânea.
+- **Full-Duplex:** Comunicação simultânea nos dois sentidos.
+
+📌 *Exemplo:*  
+Comunicação full-duplex é essencial para serviços modernos e sistemas críticos.
+
+---
+
+## 🚀 Largura de Banda e Taxa de Transferência
+
+- **Largura de banda:** Capacidade máxima de transmissão de dados.
+- **Taxa de transferência:** Velocidade real alcançada durante a comunicação.
+
+⚠️ Impactos na segurança:
+- Baixa largura de banda pode afetar a disponibilidade.
+- Ataques como **DoS/DDoS** exploram esse limite para causar indisponibilidade.
+
+---
+
+## 🎯 Objetivo do Módulo
+Compreender como os dados trafegam em redes e como limitações ou falhas podem impactar diretamente a segurança da informação.
+
+✅ **Status:** Concluído
