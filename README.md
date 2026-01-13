@@ -1,77 +1,90 @@
-# 🛡️ CCST Cybersecurity – Junior Cybersecurity Analyst
+# 🛡️ CCST Cybersecurity – Junior Analyst (SOC | NOC | Blue Team)
 
-Este repositório contém anotações, exercícios, laboratórios e materiais complementares da trilha **Junior Cybersecurity Analyst** da Cisco Networking Academy. A trilha prepara para a certificação **Cisco Certified Support Technician (CCST) – Cybersecurity**, voltada para profissionais iniciantes na área de segurança da informação.
+Este repositório contém anotações, exercícios, laboratórios e materiais complementares da trilha **Junior Cybersecurity Analyst** da Cisco Networking Academy.
+
+A trilha prepara para a certificação **Cisco Certified Support Technician (CCST) – Cybersecurity**, com foco em fundamentos técnicos para atuação em **ambientes de SOC, NOC, Blue Team e posições júnior em Segurança da Informação e Redes**.
+
+---
 
 ## 🎯 Objetivo da Trilha
 
-Desenvolver habilidades fundamentais em segurança cibernética, incluindo:
+Desenvolver habilidades fundamentais em cibersegurança e redes, incluindo:
 
-- Inteligência de ameaças
-- Segurança de rede
+- Monitoramento de redes e sistemas
+- Fundamentos de segurança da informação
+- Inteligência e gerenciamento de ameaças
+- Segurança de redes
 - Gestão de riscos
 - Defesa de endpoints
-- Monitoramento de alertas
+- Análise inicial de alertas
 - Governança e resposta a incidentes
 
+---
+
 ## 🧱 Estrutura do Repositório
-CCST-Cybersecurity-Junior-Analyst/ 
-- ├── 01-introducao-cybersecurity/ │
-- └── README.md 
-- ├── 02-redes-basicas/ │
-- └── README.md 
-- ├── 03-dispositivos-e-configuracao/ │
-- └── README.md 
-- ├── 04-seguranca-endpoint/ │
-- └── README.md 
-- ├── 05-defesa-de-rede/ │
-- └── README.md 
-- ├── 06-gerenciamento-de-ameacas/ │
-- └── README.md 
-- ├── 07-exame-final/ │
-- └── README.md 
-- └── README.md
+    CCST-Cybersecurity-Junior-Analyst/
+    ├── 01-introducao-cybersecurity/
+    │   └── README.md
+    ├── 02-redes-basicas/
+    │   └── README.md
+    ├── 03-dispositivos-e-configuracao/
+    │   └── README.md
+    ├── 04-seguranca-endpoint/
+    │   └── README.md
+    ├── 05-defesa-de-rede/
+    │   └── README.md
+    ├── 06-gerenciamento-de-ameacas/
+    │   └── README.md
+    ├── 07-exame-final/
+    │   └── README.md
+    └── README.md
+
 
 ## 📚 Conteúdo por Módulo
 
 ### 1. Introdução à Cybersecurity
-- Conceitos de segurança da informação
+- Fundamentos de segurança da informação
 - Tipos de ameaças e ataques
-- Carreiras na área de segurança
+- Conceitos iniciais de defesa cibernética
+- Visão geral de carreiras em cibersegurança
 
 ### 2. Redes Básicas
-- Fundamentos de redes
-- Endereçamento IP
+- Conceitos fundamentais de redes
+- Comunicação e transmissão de dados
 - Modelos OSI e TCP/IP
+- Noções de endereçamento IP
 
 ### 3. Dispositivos e Configuração Inicial
 - Roteadores, switches e firewalls
-- Configuração básica de rede
+- Conceitos básicos de conectividade com ISP
 
 ### 4. Segurança de Endpoint
-- Antivírus, EDR e proteção local
-- Boas práticas de segurança em dispositivos
+- Proteção de dispositivos finais
+- Antivírus, EDR e boas práticas de segurança
+- Segurança em ambientes domésticos e corporativos
 
 ### 5. Defesa de Rede
 - Monitoramento de tráfego
 - Firewalls e IDS/IPS
-- Análise de alertas
+- Análise inicial de eventos e alertas de segurança
 
 ### 6. Gerenciamento de Ameaças
-- Avaliação de vulnerabilidades
+-Avaliação de vulnerabilidades
 - Gestão de riscos
-- Resposta a incidentes
+- Introdução à resposta a incidentes
+- Conceitos de governança em segurança da informação
 
 ### 7. Exame Final
-- Simulados e revisão
-- Preparação para a certificação CCST Cybersecurity
+- Revisão geral dos conteúdos
+- Simulados de preparação para a certificação CCST Cybersecurity
 
 ## 🛠️ Ferramentas Utilizadas
 
 - Cisco Packet Tracer
 - Wireshark
-- Nessus (simulado)
 - NetAcad Labs
-- Notas e exercícios em Markdown
+- Simulações de análise de vulnerabilidades
+- Documentação e anotações em Markdown
 
 ## 🏆 Certificação Alvo
 
@@ -79,4 +92,7 @@ CCST-Cybersecurity-Junior-Analyst/
 - Nível: Iniciante
 - Carga horária estimada: 120 horas
 
-> 💡 *Este repositório é ideal para acompanhar a trilha oficial da Cisco e se preparar para atuar como analista júnior de segurança cibernética.*
+## 📌 Status do Repositório
+🚧 Em constante atualização conforme avanço nos estudos, laboratórios práticos e revisões de conteúdo.
+
+> 💡 *Este repositório faz parte da minha jornada como estudante de Defesa Cibernética, com foco em oportunidades de estágio e posições júnior em ambientes de SOC, NOC, Blue Team e operações de segurança e redes*
