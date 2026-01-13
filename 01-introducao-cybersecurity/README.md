@@ -41,5 +41,7 @@ Este módulo apresenta os fundamentos da segurança cibernética, explorando con
 - O modelo CIA é uma base sólida para avaliar qualquer sistema ou política de segurança.
 - A engenharia social é uma das formas mais eficazes de ataque — e a mais subestimada.
 
+## Status
+✅ Concluído
 
 > 💡 *Este módulo é essencial para construir uma base sólida na área de segurança cibernética, especialmente para quem está começando na trilha de analista júnior.*
