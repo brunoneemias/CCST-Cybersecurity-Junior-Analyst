@@ -1,4 +1,4 @@
-# Módulo 4 - Comutação Ethernet (Visual)
+# Módulo 4 - Comutação Ethernet
 
 Este módulo apresenta conceitos de Ethernet, endereçamento MAC, encapsulamento, operação de switches e notações Ethernet de forma visual.
 
