@@ -74,7 +74,8 @@ Este ping no endereço de broadcast da LAN cria entradas ARP nos dispositivos.
 
 ### Etapa 6: Preparação para Simulação
 - Certifique-se de que todas as PDUs estão no painel de simulação.
-- imagem das PDUs aqui 
+
+![PDUs após configuração](capturas/03-cores-PDUs.png)
 ---
 
 ### Etapa 7: Multiplexação de conversações
@@ -109,14 +110,18 @@ Este ping no endereço de broadcast da LAN cria entradas ARP nos dispositivos.
 
 ## Parte 2: Funcionalidade TCP e UDP
 ### Tráfego HTTP (TCP) 
-1. Filtre para HTTP e TCP. (imagem no filtro aqui) 
+1. Filtre para HTTP e TCP. 
+
+![Filtro de captura de PDUs](capturas/04-HTTP-E-TCP.png)
+
 2. Abra o navegador no Cliente HTTP e acesse 192.168.1.254.
 3. Observe:
    - Cor das PDUs
    - SRC PORT, DEST PORT, SEQUENCE NUM, ACK NUM
    - Sinalizadores TCP: URG, ACK, PSH, RST, SYN, FIN
 4. Observe diferenças entre PDU de saída e entrada.
-5. Imagem aqui da PDU e sinalizadores marcados 
+
+![PDU HTTP ](capturas/05-PDU-HTTP.png)
 
 ### 🚩 Campo Flags no TCP
 
@@ -152,7 +157,10 @@ Cada bit pode estar **ativo (1)** ou **inativo (0)**, e mais de uma flag pode se
 ---
 
 ### Tráfego FTP (TCP) 
-1. Filtre para FTP e TCP. inserir imagem aqui 
+1. Filtre para FTP e TCP. 
+
+![Filtro de captura de PDUs](capturas/06-TCP-E-FTP.png)
+
 2. Abra Prompt de Comando → ftp 192.168.1.254.
 3. Registre:
    - Números de porta, sequência e ACK
@@ -161,10 +169,16 @@ Cada bit pode estar **ativo (1)** ou **inativo (0)**, e mais de uma flag pode se
    - inserir imagem do dados, e mensagem do FTP 
 4. Observe cores diferentes para cada PDU.
 
+![PDU FTP](capturas/07-PDU-FTP.png)
+
+
+![PDU FTP RESPOSTA](capturas/08-PDU-FTP-RESPOSTA.png)
+
+
 --- 
 
 ### Tráfego DNS (UDP)
-1. Filtre para DNS e UDP.. inserir imagem aqui 
+1. Filtre para DNS e UDP.
 2. Execute nslookup multiserver.pt.ptu.
 3. Registre:
    - Protocolo da camada 4: UDP
@@ -173,10 +187,22 @@ Cada bit pode estar **ativo (1)** ou **inativo (0)**, e mais de uma flag pode se
    - inserir imagem do dados, e mensagem do FTP 
 4. Observe PDU de retorno e compare endereços e portas.
 
+![PDU DNS](capturas/09-PDU-DNS.png)
+
+
+![Filtro de captura de PDUs](capturas/10-DNS-recebido-do-servidor.png)
+
+
+
+
 ---  
 
 ### Tráfego de E-mail (TCP)
-1. Filtre para POP3, SMTP e TCP. inserir imagem aqui 
+1. Filtre para POP3, SMTP e TCP.
+
+![Filtro de captura de PDUs](capturas/11-SMTP-E-TCP.png)
+
+
 2. Envie e-mail para user@multiserver.pt.ptu
 3. Registre:
    - Protocolo de transporte: TCP
@@ -185,6 +211,11 @@ Cada bit pode estar **ativo (1)** ou **inativo (0)**, e mais de uma flag pode se
    - SRC PORT, DEST PORT, SEQUENCE NUM e ACK NUM
    - Bandeiras TCP definidas: SYN, ACK, FIN conforme etapa
 4. Compare PDU de saída e entrada para entender o fluxo.
+
+
+![EMAIL PDUs](capturas/12-PDU-TCP.png)
+
+![EMAIL PDUs](capturas/13-PDU.png)
 
 ---   
 
