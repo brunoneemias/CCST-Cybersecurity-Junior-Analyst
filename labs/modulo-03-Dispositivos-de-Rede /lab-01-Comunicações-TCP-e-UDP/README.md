@@ -15,7 +15,7 @@
 - Topologia de rede.
 - PCs clientes: HTTP Client, FTP Client, DNS Client, E-Mail Client
 - Servidor MultiServer
-- ![Topologia da rede](capturas/minha_imagem.png)
+- ![Topologia da rede](capturas/02 - Topologia da rede.png)
 
 
 ---
