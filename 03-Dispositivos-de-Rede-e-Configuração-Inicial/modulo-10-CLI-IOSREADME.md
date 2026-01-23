@@ -131,7 +131,13 @@ Exemplo:
 
 ---
 
+---
 
+## ✅ Status do Módulo
+
+- [x] Estudado
+- [x] Resumido
+- [x] Documentado no GitHub
 
 
 
