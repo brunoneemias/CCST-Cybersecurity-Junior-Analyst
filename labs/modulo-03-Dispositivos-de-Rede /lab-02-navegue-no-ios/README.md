@@ -16,8 +16,9 @@ Praticar o uso da CLI do Cisco IOS, explorando:
 
 PC conectado ao Switch via cabo console para acesso direto à CLI.
 
-📸 *Inserir imagem da conexão console aqui*  
-![Console Connection](images/console-connection.png)
+📸 
+
+![Topologia](img/01-Topology.png)
 
 ---
 
@@ -30,8 +31,9 @@ PC conectado ao Switch via cabo console para acesso direto à CLI.
 S1>
 
 
-📸 *Inserir print do primeiro prompt da CLI*  
-![First Prompt](images/first-prompt.png)
+📸 
+
+![Primeiro Prompt](img/02-S1.png)
 
 ---
 
@@ -49,8 +51,9 @@ Uso do caractere `?` para:
 S1> ?
 S1> t?
 ``` 
-📸 Inserir print mostrando ajuda contextual
+📸 
 
+![Testes](img/02-S1-t.png)
 ---
 
 ### 🔐 Modos EXEC
@@ -90,8 +93,9 @@ show clock
 
 ```
 
-📸 Inserir print da hora configurada corretamente
+📸 
 
+![Clock](img/05-Clock-setted.png)
 
 ---
 
