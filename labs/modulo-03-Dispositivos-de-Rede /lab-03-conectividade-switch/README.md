@@ -14,6 +14,22 @@ Este laboratório teve como objetivo configurar switches Cisco com endereços IP
 | PC2 | NIC | 192.168.1.2 | 255.255.255.0 |
 
 ---
+## 
+📖 Conceito Importante 
+Os switches podem funcionar sem nenhuma configuração inicial, pois encaminham quadros com base em endereços MAC (Media Access Control).
+Ou seja:
+
+- O switch não precisa de IP para comutar tráfego
+
+- O IP é usado apenas para:
+
+    - Gerenciamento remoto
+    - Testes (ping, SSH, Telnet)
+    - Monitoramento
+    
+O tráfego de rede em si funciona apenas com endereços MAC. 
+
+---
 
 ## 🎯 Objetivos do Lab
 
@@ -41,6 +57,11 @@ end
 
 copy running-config startup-config
 ```
+📌 O que faz o comando no shutdown?
+Por padrão, algumas interfaces ficam desativadas (administratively down).
+➡ Ativa a interface
+➡ Permite que ela comece a transmitir dados
+Sem ele, a VLAN/interface continua desligada.
 
 --- 
 
