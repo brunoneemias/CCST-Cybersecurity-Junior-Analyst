@@ -53,7 +53,7 @@ Resultado esperado:
 ```bash
 Vlan1 192.168.1.253 up up
 ``` 
-📸 Print sugerido aqui: saída do show ip interface brief no S1
+![S1](images/s1-ip.png)
 
 ---
 ## 🔧 Switch S3
@@ -82,7 +82,7 @@ Resultado esperado:
 ```bash
 Vlan1 192.168.1.254 up up
 ``` 
-📸 Print sugerido aqui: configuração do S2 funcionando
+![S1](images/s2-ip.png)
 
 ---
 ## 💻 Parte 2 — Configuração dos PCs
@@ -103,7 +103,7 @@ Máscara: 255.255.255.0
 
 --- 
 
-📸 Print sugerido aqui: tela de IP Configuration de um dos PCs
+![PC](images/pc-ip.png)
 
 --- 
 
@@ -132,7 +132,7 @@ ping 192.168.1.2
 
 ```
 
-📸 Print sugerido aqui: ping com sucesso (100%)
+![PING](images/ping.png)
 
 --- 
 
