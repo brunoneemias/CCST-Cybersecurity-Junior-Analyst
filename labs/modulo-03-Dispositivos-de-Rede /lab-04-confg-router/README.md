@@ -17,7 +17,7 @@ Configurar e proteger o roteador R1, incluindo:
 - PC conectado ao roteador via cabo console
 - Acesso ao IOS pelo Terminal
 
-📸 *Sugestão de print: conexão console PCA → R1 no Packet Tracer*
+![Topologia](images/topologia.png)
 
 ---
 
@@ -44,7 +44,8 @@ Router#
 Router# show running-config
 
 ```
-📸 Print sugerido mostrando o running-config inicial
+![Running-config-inicial](images/running-conf-ini.png)
+
 📘 Observações importantes:
 - Hostname padrão: Router
 - Interfaces disponíveis (FastEthernet, Gigabit, Serial)
@@ -92,7 +93,7 @@ Router(config)# hostname R1
 R1(config)# Unauthorized access is strictly prohibited #
 
 ```
-📸 Print do banner aparecendo ao reconectar no console
+![Banner](images/banner.png)
 
 ---
 
@@ -123,7 +124,9 @@ R1(config-line)# exit
 R1# show running-config
 ```
 
-📸 Print mostrando senhas criptografadas e banner configurado
+![Running-config-final](images/runner-conf-fin-01.png)
+
+![Running-config-final](images/runner-conf-fin-02.png)
 
 ---
 
