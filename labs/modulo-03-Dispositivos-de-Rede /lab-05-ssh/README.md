@@ -25,7 +25,7 @@
 telnet 10.10.10.2
 enable
 ```
-📸 Inserir print do acesso Telnet funcionando 
+![Telnet](images/telnet.png)
 
 --- 
 
@@ -45,7 +45,7 @@ service password-encryption
 
 ✔️ Impede exibição de senhas em texto claro no running-config
 
-📸 Inserir print do show running-config com senhas criptografadas
+![Senha-crypyo](images/senhascryp.png)
 
 ### 🔐 Parte 2 – Configuração do SSH
 
@@ -60,7 +60,7 @@ ip domain-name netacad.pka
 ```bash
 crypto key generate rsa
 ```
-📸 Inserir print da geração da chave RSA
+![Senha-RSA](images/rsa.png)
 
 ### Criar usuário local
 
@@ -94,7 +94,7 @@ telnet 10.10.10.2
 ```bash
 ssh -l administrator 10.10.10.2
 ```
-📸 Inserir print do acesso SSH bem-sucedido
+![telnet-erro](images/telnet-erro.png)
 
 
 ### Salvar configuração final
