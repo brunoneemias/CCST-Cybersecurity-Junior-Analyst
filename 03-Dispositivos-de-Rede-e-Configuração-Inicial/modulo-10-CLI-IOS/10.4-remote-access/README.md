@@ -91,7 +91,6 @@ S1(config-line)# exit
 ```
 📌 Agora o switch aceita somente SSH (Telnet bloqueado).
 
-
 --- 
 ### ✅ Etapa 6 – Forçar SSH versão 2
 ```bash
@@ -116,12 +115,7 @@ Após configuração completa → SSH ativo.
 
 --- 
 ### 📚 Conceitos importantes
-```bash
-S1# show ip ssh
-```
 
---- 
-### ✅ Etapa 1 – Verificar suporte a SSH 
 | Item                | Explicação                         |
 | ------------------- | ---------------------------------- |
 | VTY                 | Linhas virtuais para acesso remoto |
