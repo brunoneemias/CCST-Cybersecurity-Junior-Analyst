@@ -83,7 +83,7 @@ line vty 0 15
 
 ## ✅ Parte 3 – Verificação
 
-###Telnet (deve falhar)
+### Telnet (deve falhar)
 
 ```bash
 telnet 10.10.10.2
