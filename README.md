@@ -37,6 +37,8 @@ Desenvolver habilidades fundamentais em cibersegurança e redes, incluindo:
     │   └── README.md
     ├── 07-exame-final/
     │   └── README.md
+    ├── labs/
+    │   └── README.md
     └── README.md
 
 
