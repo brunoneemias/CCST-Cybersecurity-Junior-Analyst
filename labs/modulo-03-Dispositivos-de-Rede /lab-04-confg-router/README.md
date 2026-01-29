@@ -56,14 +56,6 @@ Router# show running-config
 
 ```bash
 Router# show startup-config
-
-```
----
-### 🔹 Entrar no modo privilegiado
-
-```bash
-Router> enable
-Router#
 ```
 📌 Resultado esperado:
 
@@ -72,6 +64,13 @@ startup-config is not present
 ```
 ✅ Isso ocorre porque nenhuma configuração foi salva ainda.
 
+---
+### 🔹 Entrar no modo privilegiado
+
+```bash
+Router> enable
+Router#
+```
 ---
 
 ## ⚙️ Parte 2 – Configuração Inicial do Roteador
