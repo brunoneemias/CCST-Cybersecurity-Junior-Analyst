@@ -89,8 +89,8 @@ Router(config)# hostname R1
 ### 🔹 Configurar banner MOTD
 
 ```bash
-R1(config)# banner motd #
-Unauthorized access is strictly prohibited
+R1(config)# Unauthorized access is strictly prohibited #
+
 ```
 📸 Print do banner aparecendo ao reconectar no console
 
