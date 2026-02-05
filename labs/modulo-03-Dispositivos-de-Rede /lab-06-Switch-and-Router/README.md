@@ -10,7 +10,7 @@
 ---
 
 ## 📋 Topologia 
-Imagem aqui... 
+![S1](images/1-topology.png)
 
 ---
 
