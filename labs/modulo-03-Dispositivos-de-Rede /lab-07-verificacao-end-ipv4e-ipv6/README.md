@@ -49,6 +49,109 @@ Em cada PC:
 ```bash
 ipconfig /all
 ``` 
+PC1
+- IP:
+- Máscara:
+- Gateway:
+
+PC2
+- IP:
+- Máscara:
+- Gateway:
+
+📸 Sugestão de print: saída do ipconfig dos dois PCs
 
 --- 
+
+## 🔹 IPv6
+```bash
+ipv6config /all
+```
+
+PC1
+- IPv6:
+- Prefixo:
+- Gateway:
+
+PC2
+- IPv6:
+- Prefixo:
+- Gateway:
+
+📸 Print da saída do ipv6config
+
+--- 
+
+# 📡 Parte 2 – Testes de Conectividade
+✅ Ping IPv4
+
+Em PC1:
+```bash
+ping <IP_PC2>
+```
+
+Resultado: ✔ / ❌
+Observação:
+
+Em PC2:
+```bash
+ping <IP_PC1>
+```
+Resultado: ✔ / ❌
+
+📸 Print dos pings funcionando
+
+--- 
+
+# 🧭 Parte 3 – Traceroute (Caminho dos Pacotes)
+🌍 Tracert IPv4
+
+De PC1:
+```bash
+tracert 10.10.1.20
+```
+Endereços encontrados:
+1.
+2.
+3.
+4.
+Interfaces correspondentes:
+
+--- 
+
+## 🌐 Tracert IPv6
+
+De PC1:
+```bash
+tracert 2001:db8:1:4::a
+```
+Endereços encontrados:
+
+---
+
+De PC2:
+```bash
+tracert <IPv6_PC1>
+```
+Endereços encontrados:
+
+📸 Print do caminho IPv4 e IPv6
+
+---
+
+## ✅ Conclusão do Lab
+✔ Endereçamento IPv4 validado
+✔ Endereçamento IPv6 validado
+✔ Dual Stack funcionando
+✔ Roteamento confirmado via ping e tracert
+
+---
+
+## 📚 Conceitos reforçados
+
+- Pilha dupla IPv4/IPv6
+- Gateway padrão
+- ICMP
+- Traceroute
+- Endereçamento em múltiplos roteadores
 
